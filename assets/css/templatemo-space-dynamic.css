@@ -143,7 +143,7 @@ global styles
 */
 html,
 body {
-  background: #B2BEB5;
+  background: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -590,6 +590,10 @@ header
 
 .header-area.header-sticky .nav li a.active {
   color: #fe3f40;
+}
+
+.projects{
+  display:flex;
 }
 
 @media (max-width: 1200px) {
