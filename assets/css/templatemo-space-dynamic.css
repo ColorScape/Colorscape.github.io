@@ -122,7 +122,11 @@ html {
   padding: 0 8px;
   padding:50px 50px 50px 50px;
 }
-
+@media screen and (max-width: 991px) {
+  .left-image .newdiv{
+    width:0%;
+  }
+}
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
